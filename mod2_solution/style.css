@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", serif;
+}
+
+.container{
+    margin: 20px;
+}
+
+.title{
+    border: 2px solid black;
+    width: 120px;
+    font-size: 1em;
+    font-weight: bold;
+    height: auto;
+    text-align: center;
+    margin-top: -1px;
+    margin-right: -1px;
+    float: right;
+    
+}
+
+.pink{
+    background-color: rgba(234, 177, 198, 0.859);
+}
+
+.red{
+    background-color: rgba(231, 91, 91, 0.81);
+}
+
+.yellow{
+    background-color: rgb(234, 234, 152);
+}
+
+.white{
+    color: white;
+}
+
+.row{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+}
+
+.box{
+     height: auto;
+     border: 2px solid black;
+     float: left;
+     background-color: rgba(128, 128, 128, 0.747);
+     margin: 20px;
+     position: relative;
+     size: 1.75em;
+}
+
+.content{
+    padding: 10px;
+    padding-top: 50px;
+}
+
+/* desktop view */
+@media (min-width: 992px) {
+    .col-lg-4  {
+        float: left;
+        padding: 5px;
+        width: 33.33%
+    }
+}
+
+/* tablet view */
+@media (min-width:768px) and (max-width:991px){
+    .col-md-6, .col-md-12 {
+        float: left;
+        padding: 5px;
+    }
+
+    .col-md-6{
+        width: 50%;
+    }
+
+    .col-md-12{
+        width: 100%;
+    }
+}
+
+/* mobile view */
+@media (min-width: 0px) and (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+  }
+
